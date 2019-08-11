@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head lang='en'>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width'>
+	<title>rollup-starter-app</title>
+
+	<style>
+		body {
+			font-family: 'Helvetica Neue', Arial, sans-serif;
+			color: cyan;
+			font-weight: 300;
+			background-color: rgb(0, 13, 38);
+      height: 100vh;
+		}
+		#chart-wrapper {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate3d(-50%, -50%, 0);
+    }
+		.text-center {
+			text-align: center;
+		}
+		.text-uppercase {
+			text-transform: uppercase;
+		}
+	</style>
+</head>
+<body>
+  <!-- <div id="chart-wrapper"> -->
+    <canvas id="my-webgl-canvas" width="800" height="450" style="height: 100%; width: 100%;">
+      Your browser does not support HTML5
+    </canvas>
+  <!-- </div> -->
+	<script src='bundle.js'></script>
+</body>
+</html>
